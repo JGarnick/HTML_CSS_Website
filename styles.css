@@ -1,0 +1,207 @@
+/* author: Josh Garnick
+	date: 10/21/15
+	stylesheet for Term Project */
+	
+
+body{
+	background: url(entrance1.jpg) no-repeat top center fixed;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+	padding: 10px;
+	
+}	
+#container{
+	background-color: #FADCA8;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border-right: 2px solid brown;
+}
+	
+	
+/* header styles */
+
+header{
+	margin: 0px;
+	color: #472613;
+	text-align: center;
+}
+
+header h1 {
+	background-color: rgb(255, 189, 95);
+	border-top: 2px solid brown;
+	border-right: 2px solid brown;
+	border-left: 2px solid brown;
+	margin: 0px;
+}
+
+/* nav styles */
+
+nav{
+	float: left;
+	width: 150px;
+	text-align:center;
+	background-color: #C26B00;
+	word-spacing: 150px;
+	font-size: .6em;
+	padding-left: 0px;
+	
+	border-right: 2px solid brown;
+	border-left: 2px solid brown;
+	line-height: 40px;
+}
+
+nav ul{
+	width: 150px;
+	margin: 0px;
+	padding-left: 0px;
+	
+}
+
+nav ul li a:hover{
+	color: yellow;
+	background-color: brown;
+}
+
+nav ul li{
+	padding-bottom: 10px;
+	text-align: center;
+	line-height: 9em;
+	list-style-type: none;
+	font-size: 1.5em;
+	
+}
+
+nav ul li a{
+	color: #612821;
+	text-decoration: none;
+}
+
+aside figure{
+	float:right;
+	border: 2px solid brown;
+	padding: 10px;
+	background-color: rgb(255, 189, 95);
+}
+
+aside figure figcaption{
+	text-align: center;
+	font-style: italic;
+	font-size: 0.8em;
+	background-color: rgb(255, 189, 95);
+	
+	
+}
+
+/* Section styles */
+
+section{
+	padding-left: 160px;
+}
+
+section article{
+	
+	margin-top: 30px;
+	color: #472613;
+	margin-left: 15px;
+	
+	margin-right: 15px;
+	
+}
+
+section article ul {
+	width: 50%;
+	line-height: 4em;
+}
+
+section article h1{
+	padding-left: 10px;
+	float: left;
+	width: 800px;
+	padding-top: 40px;
+}
+
+section article p{
+	width: 800px;
+	display: block;
+	font-size: 1.3em;
+	
+}
+
+section article img{
+	margin-top: 40px;
+	width: 35%;
+	height: auto;
+	float:left;
+}
+
+
+
+
+section article ul li a{
+	text-decoration: none;
+	color: #472613;
+}
+
+section article ul li a:hover{
+	text-decoration: none;
+	color: yellow;
+	background-color: brown;
+}
+
+section article ul li{
+	list-style-type: none;
+}
+
+#options{
+	float: left;
+	width: 320px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+
+
+#right {
+	float: right;
+	font-size: 0.9em;
+	margin-bottom: 35px;
+	margin-right: 22px;
+	margin-top: 60px;
+	width: 424px;
+	font-weight: bold;
+	line-height: 4em;
+	border: 1px double black;
+	text-align: center;
+}
+
+#community {
+	padding-left: 10px;
+	float: left;
+	font-style: italic;
+	font-size: .9em;
+	
+}
+
+/* footer styles */
+
+footer{
+	clear: both;
+	
+	background-color: rgb(255, 189, 95);
+	color: #472613;
+	text-align: center;
+	border-left: 1px solid brown;
+	border-right: 1px solid brown;
+	border-bottom: 1px solid brown;
+}
+
+footer address{
+	
+	background-color: rgb(255, 189, 95);
+	color: rgb(156, 74, 0);
+}
+
+#return{
+	font-size: .7em;
+}
